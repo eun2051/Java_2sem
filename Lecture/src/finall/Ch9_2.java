@@ -9,7 +9,7 @@ class Car {
 	
 	Car() {
 		String color = "흰색";
-	}
+	} 
 	
 	Car(String n, String c, int p, int s) {
 		name = n;

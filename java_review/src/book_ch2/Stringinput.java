@@ -15,5 +15,6 @@ public class Stringinput {
 			}
 		}
 		System.out.println("종료");
+		s.close();
 	}
 }
