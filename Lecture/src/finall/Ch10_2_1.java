@@ -34,3 +34,21 @@ class fighter extends Plane {
 		System.out.println("플레어 발사");
 	}
 }
+
+public class Ch10_2_1 {
+	public static void main(String[] args) {
+		Me me = new Me();
+		Parent parent = new Parent();
+		Parent D = new Home();
+		
+		System.out.print("부모님 : ");
+		parent.manageCompany();
+		System.out.println("재산 : " + me.worth);
+		System.out.println("성격 : " + me.Personality);
+		System.out.print("상속받고 싶은 차 : ");
+		me.DriveCar();
+		System.out.print("지금의 나는.. : ");
+		me.play();
+		D.Do();
+	}
+}
