@@ -1,7 +1,6 @@
 package finall;
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
@@ -29,5 +28,6 @@ public class Ch11_2_5 {
         } catch (FileNotFoundException e) {
             System.out.println("파일을 찾을 수 없습니다");
         }
+        s.close();
     }
 }
